@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SkytalesAPI:jar">
+    <output-path>$USER_HOME$/Documents/Server Skytales/</output-path>
+    <root id="archive" name="SkytalesAPI.jar">
+      <element id="module-output" name="SkytalesImpl" />
+      <element id="module-output" name="SkytalesAPI" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.4.3/mongodb-driver-3.4.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/bson/3.4.3/bson-3.4.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.4.3/mongodb-driver-core-3.4.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
