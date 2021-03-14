@@ -4,10 +4,12 @@ public enum RankType {
 
     DEFAULT("DEFAULT", "§7", 10, false, false),
     VIP("VIP", "§d[VIP] ", 20, false, false),
+    BETA("BETA", "§b[BETA] ", 30, true, false),
     YOUTUBE("YOUTUBE", "§6[YOUTUBE] ", 40, false, false),
     HELPER("HELPER", "§3[HELPER] ", 50, true, false),
     MODERATOR("MODERATOR", "§9[MODERATOR] ", 60, true, false),
-    ADMIN("ADMIN", "§c[ADMIN] ",100, true, true);
+    ADMIN("ADMIN", "§c[ADMIN] ",90, true, true),
+    HEADADMIN("HEADADMIN", "§c[ADMIN] ",100, true, true);
 
     private String name;
     private String label;

@@ -17,11 +17,7 @@ public interface SkytalesAPI {
 
     public User getEntryUser(UUID uuid, String name);
 
-    public User getEntryUser(Player player);
-
     public User getUser(UUID uuid);
-
-    public User getUser(Player player);
 
     public User getUser(String name);
 
